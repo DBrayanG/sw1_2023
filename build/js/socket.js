@@ -6,7 +6,7 @@ var conexion=false;
 function iniciarWebSocket(session,sala,ap){
 	
 	/* ws=new WebSocket("wss://socketsbay.com/wss/v2/"+session.usuario+"/bfcde323b40befb3bae6e156c309890a/");	 */
-	ws=new WebSocket("wss://socketsbay.com/wss/v2/"+session.usuario+"/15ff30fd7ebe1d98c64e53305a4304f3/");
+	ws=new WebSocket("wss://socketsbay.com/wss/v2/"+session.usuario+"/6372dc7d928e86840b8e350eaa045fcc/");
 
 	ws.onopen=function(){onOpen(ws,session);} 
 
